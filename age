@@ -1,0 +1,16 @@
+#if and if else prgm
+age = int(input("enter your age:"))
+if (age >= 14 and age <=17):
+    print("kid")
+elif (age >=18 and age <=29):
+    print("super man")
+elif (age >=30 and age <=49):
+    print("bat man")
+elif (age >= 1 and age <=13):
+    print("babby")
+elif (age >= 50 and age <=89):
+    print("old man")
+elif (age >= 90 and age <=100):
+    print("big old man")
+else:
+    print("you are a donkey")
